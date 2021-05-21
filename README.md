@@ -8,6 +8,8 @@ https://www.geeksforgeeks.org/openmp-introduction-with-installation-guide/
   d) sudo apt install libomp-dev
   e) Initialize the number of threads to be executed using the command
   f) export OMP_NUM_THREADS= (number of threads you wish to initialize);
+  g)Compile: gcc -o gfg -fopenmp filename.c
+  h)Execute: ./filename
  
  2) MAC INSTALLATION
   https://stackoverflow.com/questions/35134681/installing-openmp-on-mac-os-x-10-11
